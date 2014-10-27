@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
         push: true,
-        pushTo: 'https://github.com/ecogood/ecg-assets-common.git',
+        pushTo: 'https://github.com/nikolayhg/angular-bootstrap-progressbar-directive.git',
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
         globalReplace: false
       }
