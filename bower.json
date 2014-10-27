@@ -1,0 +1,9 @@
+{
+  "name": "angular-bootstrap-progressbar-directive",
+  "version": "0.0.1",
+  "main": "progressbar.directive.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

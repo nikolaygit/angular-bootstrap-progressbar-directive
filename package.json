@@ -1,0 +1,30 @@
+{
+  "name": "angular-bootstrap-progressbar-directive",
+  "version": "0.0.1",
+  "description": "AngularJS directive for bootstrap progressbar",
+  "homepage": "https://github.com/nikolayhg/angular-bootstrap-progressbar-directive",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/nikolayhg/angular-bootstrap-progressbar-directive/LICENSE",
+  "main": "progressbar.directive.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolayhg/angular-bootstrap-progressbar-directive.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "bootstrap",
+    "progressbar",
+    "directive"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-bump": "^0.0.16"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
