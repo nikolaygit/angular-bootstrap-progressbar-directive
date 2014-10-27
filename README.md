@@ -3,6 +3,10 @@ angular-bootstrap-progressbar-directive
 
 AngularJS directive for bootstrap progressbar
 
+# Dependency
+
+* [Bootstrap progressbar](http://www.minddust.com/project/bootstrap-progressbar/)
+
 # Specification
 
 * type: attribute directive 
