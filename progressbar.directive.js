@@ -1,6 +1,8 @@
 (function() {
   'use strict';
 
+  enableModule('bootstrap');
+
   /**
    * @name bootstrap.progressbar
    * @description progressbar directive for Bootstrap
@@ -31,6 +33,15 @@
       restrict: 'A',
       link: linker
     };
+  }
+
+  function enableModule(moduleName) {
+    try {
+      angular.module(moduleName);
+    }
+    catch (err) {
+      angular.module(moduleName, []);
+    }
   }
 
 })();
